@@ -5,7 +5,7 @@
 #include <iostream>
 #include <stack>
 using namespace std;
-//test
+
 //node struct holds a potential sudoko board and its depth in the search tree
 struct node {
     int** state;
