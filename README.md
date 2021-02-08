@@ -1,6 +1,4 @@
 # SudokoSolver
-<<<<<<< HEAD
-=======
 ## Description
 This is a basic Sudoko Solver. It uses normal sudoko rules\* to take a user generated input puzzle, find a solution, and output it. This program does not allow for Sudoko puzzles of sizes other than the typical 9x9 to be solved, and it does not allow for other rules to be taken into account.
 
@@ -17,4 +15,3 @@ So, once the user has finished inputting the puzzle, we simply count how many no
 In the case that that all possible puzzles at 81 using the given numbers are invalid, the loop breaks and no solution is outputted.
 
 \* A search tree is a representaion that can be used to solve puzzles. Basically, the initial state of the puzzle is the root of your tree, and the children of each node are reached though defined operators, and each node is tested to see if it solves the puzzle. In this case, our operators are that one number 1-9 can be added to an empty square at each level. So, at most each node has 9 children, but most likely less since any number added to the blank spot is checked for sudoko validity.
->>>>>>> bf35d0038a326582ed111b4fb72d0a36e8d0eef5
